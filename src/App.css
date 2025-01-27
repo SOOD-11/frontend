@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+}
+
+.initiative-card {
+  min-width: 100%;
+}
+
+@media (min-width: 768px) {
+  .initiative-card {
+    min-width: 75%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .initiative-card {
+    min-width: 50%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .initiative-card {
+    min-width: 40%;
+  }
+}
